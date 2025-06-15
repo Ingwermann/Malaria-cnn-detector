@@ -15,4 +15,6 @@ It focuses on detecting malaria in blood smear images using deep learning-based 
 
 ---
 
-## NN Model Architecture
+Made by **Minyoung Hong**  
+🔗 [LinkedIn](https://www.linkedin.com/in/minyoung-hong/)  
+📬 minyoung.email@example.com
