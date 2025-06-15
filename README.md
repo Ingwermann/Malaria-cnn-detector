@@ -17,4 +17,4 @@ It focuses on detecting malaria in blood smear images using deep learning-based 
 
 Made by **Minyoung Hong**  
 🔗 [LinkedIn](https://www.linkedin.com/in/minyoung-hong/)  
-📬 minyoung.email@example.com
+📬 minyoung.hong07@gmail.com
