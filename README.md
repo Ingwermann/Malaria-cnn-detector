@@ -1,20 +1,25 @@
-# Malaria Detection with Convolutional Neural Networks (CNN)
+# Malaria Cell Classification with CNN
+This project implements a Convolutional Neural Network (CNN) to classify parasitized and uninfected red blood cells using microscopic images. The model is built with Keras and achieves **~99% accuracy** on the test set with data augmentation.
 
-This project was completed as part of the final capstone for the **MIT Applied Data Science Program**.  
-It focuses on detecting malaria in blood smear images using deep learning-based image classification techniques.
+## Key Features
+- Binary classification: `Parasitized` vs. `Uninfected`
+- Model: Custom CNN (`cnn_aug_model`)
+  - 4 convolutional blocks
+  - ReLU activation
+  - BatchNormalization and Dropout
+- Data Augmentation: rotation, zoom, horizontal flip
+- Optimizer: Adam
+- Accuracy: **~99%**
 
----
+## Project Structure
+malaria-detector/
+- models/cnn_aug_model.py
+- notebooks/malaria_detector_training.ipynb
+- requirements.txt
+- .gitignore
+- README.md
 
-## Project Highlights
-
-- Binary classification of **Parasitized** vs **Uninfected** cells
-- Achieved **99% accuracy** using CNN with data augmentation
-- Performed EDA, preprocessing, and model evaluation
-- mplemented two models: Basic CNN and Augmented CNN
-- sed TensorFlow/Keras, matplotlib, sklearn
-
----
-
+# Developer Info
 Made by **Minyoung Hong**  
 🔗 [LinkedIn](https://www.linkedin.com/in/minyoung-hong/)  
 📬 minyoung.hong07@gmail.com
